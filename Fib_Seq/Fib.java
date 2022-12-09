@@ -2,7 +2,10 @@ package Fib_Seq;
 
 public class Fib {
     public static int fibSeq(int i) {
-        if (i == 0 || i == 1) {
+        if (i == 0) {
+            return 0;
+        }
+        if (i == 1) {
             return 1;
         }
         else {
